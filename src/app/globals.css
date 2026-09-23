@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Navy scale for accents */
+  --color-navy-50: #f1f5fa;
+  --color-navy-100: #dfe8f3;
+  --color-navy-200: #bccde4;
+  --color-navy-300: #8aa8cf;
+  --color-navy-500: #36649f;
+  --color-navy-600: #264f86;
+  --color-navy-700: #1f416e;
+  --color-navy-800: #1b365b;
+  --color-navy-900: #142741;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #f7f8fa;
+  color: #1a2433;
+}
+
+/* Tentative bookings: hatched fill so they read differently at a glance. */
+.bar-tentative {
+  background-image: repeating-linear-gradient(135deg, rgb(255 255 255 / 0.35) 0 6px, transparent 6px 12px);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-navy-500);
+  outline-offset: 2px;
+}
