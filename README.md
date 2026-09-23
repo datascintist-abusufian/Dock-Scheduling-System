@@ -26,7 +26,8 @@ A web-based reservation system providing:
 ...
 
 ## Architecture
-...
+<img width="1976" height="1800" alt="289D80AA-8B22-4E09-916D-DCACE8CED196_1_201_a" src="https://github.com/user-attachments/assets/d29fedff-94af-4b17-a32c-63f2fe65fe2f" />
+
 
 ## Deployment
 ...
