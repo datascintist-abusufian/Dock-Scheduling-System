@@ -8,6 +8,12 @@ Built with Next.js (App Router), TypeScript, Tailwind CSS and Supabase/PostgreSQ
 
 ---
 
+## At a glance
+
+![System overview](docs/figures/Dock-Scheduling_architecture.png)
+
+**Figure 1. System overview.** (a) The spreadsheet process this app replaces. (b) Layered architecture: Next.js pages and server actions, a service layer, pure domain rules and a repository backed by Supabase/PostgreSQL or an in-memory store. (c) The same rules are enforced in the browser, on the server and in the database. (d) The berth-fit and date-overlap rules. Screenshots are from the deployed app.
+
 ## 1. Problem
 
 The facility has managed berth reservations in Excel for about 23 years (1997–2019 in the supplied workbook). Each annual sheet has **berths as rows and days as columns**. A booking is text typed into a run of cells: research vessels, yachts, and non-vessel events such as *Community Sail Day*.
